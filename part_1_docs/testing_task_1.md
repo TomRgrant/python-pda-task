@@ -40,8 +40,8 @@ def cards_total(self, cards):
   total
   for card in cards:
     total += card.value
-    #for loop will only run once return needs to be out the loop
-    #need to convert the int to a str to concatenate
+    #for loop will only run once return needs to be out the loop.
+    #need to convert the int to a str to concatenate.
     return "You have a total of" + total
   
 ```
